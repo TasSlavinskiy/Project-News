@@ -1,0 +1,28 @@
+
+/* Lets start declaring variables now, we start with fonts families first */
+
+$primary_font_family 			: 'Roboto', sans-serif;
+$secondary_font_family 			: 'Work Sans', sans-serif;
+$special_purpose_font_family 	: 'Stalemate', cursive;
+
+
+/* Lets now define some variables for typography */
+
+$body_line_height				: 1.6;
+$letter_spacing_body			: inherit;
+$body_line_height_mobile_device : 1.8;	
+$body_heading_line_height		: 1.3; 		/* Refers to h1,h2,h3,h4,h5,h6 */
+
+
+/* Lets now define variable for font weight same time */
+
+$body_font_weight				: 400;
+$body_heading_font_weight		: 700;
+
+
+/* Lets now define variable for font size */
+
+$body_font_size					: 15px; 
+
+
+

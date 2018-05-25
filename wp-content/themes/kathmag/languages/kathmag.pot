@@ -1,0 +1,993 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kathmag\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-07 14:41+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: functions.php:53
+msgid "Primary"
+msgstr ""
+
+#: functions.php:54
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:55
+msgid "Footer"
+msgstr ""
+
+#: functions.php:121
+msgid "Sidebar Widget Area"
+msgstr ""
+
+#: functions.php:123
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:131
+msgid "Header Advertisement"
+msgstr ""
+
+#: functions.php:133 functions.php:173 functions.php:183
+msgid "Add Advertisement Here"
+msgstr ""
+
+#: functions.php:141
+msgid "Footer Widget Area Left"
+msgstr ""
+
+#: functions.php:143 functions.php:153 functions.php:163
+msgid "Add Wigets Here"
+msgstr ""
+
+#: functions.php:151
+msgid "Footer Widget Area Middle"
+msgstr ""
+
+#: functions.php:161
+msgid "Footer Widget Area Right"
+msgstr ""
+
+#: functions.php:171
+msgid "Advertisement Widget Area One"
+msgstr ""
+
+#: functions.php:181
+msgid "Advertisement Widget Area Two"
+msgstr ""
+
+#: 404.php:25
+msgid "404 Error !"
+msgstr ""
+
+#: 404.php:32
+msgid ""
+"You landed to a 404 error page. The post you are looking for either has "
+"moved or doesn't exists in this server"
+msgstr ""
+
+#: 404.php:38
+msgid "Go Homepage"
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:78
+msgid "Copyright  &copy; "
+msgstr ""
+
+#: footer.php:82
+msgid "Sparkle Themes"
+msgstr ""
+
+#: template-parts/content-single.php:41 template-parts/content-page.php:29
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-single.php:53
+msgid "Tags & Categories :"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:37
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: sparklewpthemes/core/template-tags.php:56
+msgid ", "
+msgstr ""
+
+#. 1: list of categories.
+#. 1: list of tags.
+#: sparklewpthemes/core/template-tags.php:59
+#: sparklewpthemes/core/template-tags.php:73
+#, php-format
+msgid " %1$s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: sparklewpthemes/core/template-tags.php:70
+msgctxt "list item separator"
+msgid " "
+msgstr ""
+
+#. %s: search query.
+#: sparklewpthemes/functions/hooks.php:60
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: sparklewpthemes/functions/hooks.php:64
+msgid "Error Page"
+msgstr ""
+
+#: sparklewpthemes/functions/hooks.php:102
+msgid "&laquo;"
+msgstr ""
+
+#: sparklewpthemes/functions/hooks.php:103
+msgid "&raquo;"
+msgstr ""
+
+#: sparklewpthemes/functions/filters.php:58
+#: sparklewpthemes/functions/filters.php:59
+msgid "Search"
+msgstr ""
+
+#. If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language.
+#: sparklewpthemes/functions/helpers.php:26
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr ""
+
+#. If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language.
+#: sparklewpthemes/functions/helpers.php:31
+msgctxt "Work Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: sparklewpthemes/functions/helpers.php:60
+msgid "Add Menu"
+msgstr ""
+
+#: sparklewpthemes/functions/helpers.php:62
+msgid "Add a menu"
+msgstr ""
+
+#: sparklewpthemes/third-party/breadcrumbs.php:264
+msgid "Browse:"
+msgstr ""
+
+#: sparklewpthemes/third-party/breadcrumbs.php:265
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: sparklewpthemes/third-party/breadcrumbs.php:266
+msgid "Home"
+msgstr ""
+
+#: sparklewpthemes/third-party/breadcrumbs.php:267
+msgid "404 Not Found"
+msgstr ""
+
+#: sparklewpthemes/third-party/breadcrumbs.php:268
+msgid "Archives"
+msgstr ""
+
+#. %s is the search query.
+#: sparklewpthemes/third-party/breadcrumbs.php:270
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#. %s is the page number.
+#: sparklewpthemes/third-party/breadcrumbs.php:272
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#. %s is the page number.
+#: sparklewpthemes/third-party/breadcrumbs.php:274
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#. Minute archive title. %s is the minute time format.
+#: sparklewpthemes/third-party/breadcrumbs.php:276
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#. Weekly archive title. %s is the week date format.
+#: sparklewpthemes/third-party/breadcrumbs.php:278
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: sparklewpthemes/third-party/breadcrumbs.php:738
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: sparklewpthemes/third-party/breadcrumbs.php:755
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: sparklewpthemes/third-party/breadcrumbs.php:772
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: sparklewpthemes/third-party/breadcrumbs.php:788
+#: sparklewpthemes/third-party/breadcrumbs.php:817
+#: sparklewpthemes/third-party/breadcrumbs.php:844
+#: sparklewpthemes/third-party/breadcrumbs.php:871
+#: sparklewpthemes/third-party/breadcrumbs.php:1211
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: sparklewpthemes/third-party/breadcrumbs.php:789
+#: sparklewpthemes/third-party/breadcrumbs.php:845
+#: sparklewpthemes/third-party/breadcrumbs.php:1215
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: sparklewpthemes/third-party/breadcrumbs.php:790
+#: sparklewpthemes/third-party/breadcrumbs.php:1219
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: sparklewpthemes/third-party/breadcrumbs.php:818
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: sparklewpthemes/ocdi/ocdi.php:22
+msgid "Theme Demo Content"
+msgstr ""
+
+#: sparklewpthemes/tgm/tgm.php:29
+msgid "Contact Form 7"
+msgstr ""
+
+#: sparklewpthemes/tgm/tgm.php:39
+msgid "WooCommerce"
+msgstr ""
+
+#: sparklewpthemes/tgm/tgm.php:44 sparklewpthemes/admin/about-theme/info.php:91
+#: sparklewpthemes/admin/about-theme/info.php:136
+msgid "One Click Demo Import"
+msgstr ""
+
+#: sparklewpthemes/meta-boxes/page-metabox.php:10
+#: sparklewpthemes/meta-boxes/post-metabox.php:10
+#: sparklewpthemes/customizers/options/home-options/option-sidebar.php:23
+#: sparklewpthemes/customizers/options/theme-options/option-archive.php:25
+msgid "Sidebar Position"
+msgstr ""
+
+#: sparklewpthemes/meta-boxes/page-metabox.php:36
+#: sparklewpthemes/meta-boxes/post-metabox.php:35
+msgid "checked"
+msgstr ""
+
+#: sparklewpthemes/theme-widgets/widgets/widget-author.php:20
+msgid "Displays short information of Author"
+msgstr ""
+
+#: sparklewpthemes/theme-widgets/widgets/widget-author.php:23
+msgid "Kathmag: Author"
+msgstr ""
+
+#: sparklewpthemes/theme-widgets/widgets/widget-author.php:124
+#: sparklewpthemes/theme-widgets/widgets/widget-social.php:181
+#: sparklewpthemes/theme-widgets/widgets/widget-recent.php:117
+#: sparklewpthemes/theme-widgets/widgets/widget-slider.php:125
+#: sparklewpthemes/customizers/options/home-options/option-bottom.php:42
+#: sparklewpthemes/customizers/options/home-options/option-bottom.php:54
+#: sparklewpthemes/customizers/options/home-options/option-bottom.php:66
+#: sparklewpthemes/customizers/options/home-options/option-middle.php:41
+msgid "Title"
+msgstr ""
+
+#: sparklewpthemes/theme-widgets/widgets/widget-author.php:129
+msgid "Author Page"
+msgstr ""
+
+#: sparklewpthemes/theme-widgets/widgets/widget-author.php:136
+msgid "&mdash; Select Page &mdash;"
+msgstr ""
+
+#: sparklewpthemes/theme-widgets/widgets/widget-author.php:143
+msgid "Author Designation"
+msgstr ""
+
+#: sparklewpthemes/theme-widgets/widgets/widget-social.php:19
+msgid "Displays Social Links."
+msgstr ""
+
+#: sparklewpthemes/theme-widgets/widgets/widget-social.php:22
+msgid "Kathmag: Social"
+msgstr ""
+
+#: sparklewpthemes/theme-widgets/widgets/widget-social.php:187
+#: sparklewpthemes/customizers/options/theme-options/option-links.php:24
+msgid "Facebook Link"
+msgstr ""
+
+#: sparklewpthemes/theme-widgets/widgets/widget-social.php:193
+#: sparklewpthemes/customizers/options/theme-options/option-links.php:36
+msgid "Twitter Link"
+msgstr ""
+
+#: sparklewpthemes/theme-widgets/widgets/widget-social.php:199
+#: sparklewpthemes/customizers/options/theme-options/option-links.php:60
+msgid "Instagram Link"
+msgstr ""
+
+#: sparklewpthemes/theme-widgets/widgets/widget-social.php:205
+#: sparklewpthemes/customizers/options/theme-options/option-links.php:96
+msgid "Youtube Link"
+msgstr ""
+
+#: sparklewpthemes/theme-widgets/widgets/widget-social.php:211
+msgid "VK Link"
+msgstr ""
+
+#: sparklewpthemes/theme-widgets/widgets/widget-social.php:217
+msgid "Google Plus"
+msgstr ""
+
+#: sparklewpthemes/theme-widgets/widgets/widget-social.php:223
+#: sparklewpthemes/customizers/options/theme-options/option-links.php:72
+msgid "Linkedin Link"
+msgstr ""
+
+#: sparklewpthemes/theme-widgets/widgets/widget-social.php:229
+#: sparklewpthemes/customizers/options/theme-options/option-links.php:108
+msgid "Vimeo Link"
+msgstr ""
+
+#: sparklewpthemes/theme-widgets/widgets/widget-recent.php:19
+msgid "Displays recent posts."
+msgstr ""
+
+#: sparklewpthemes/theme-widgets/widgets/widget-recent.php:22
+msgid "Kathmag: Recent"
+msgstr ""
+
+#: sparklewpthemes/theme-widgets/widgets/widget-recent.php:124
+msgid "No of Recent Posts"
+msgstr ""
+
+#: sparklewpthemes/theme-widgets/widgets/widget-slider.php:19
+msgid "Displays posts in slider."
+msgstr ""
+
+#: sparklewpthemes/theme-widgets/widgets/widget-slider.php:22
+msgid "Kathmag: Slider Post"
+msgstr ""
+
+#: sparklewpthemes/theme-widgets/widgets/widget-slider.php:131
+msgid "Select Category "
+msgstr ""
+
+#: sparklewpthemes/theme-widgets/widgets/widget-slider.php:141
+msgid "Show Recent Posts"
+msgstr ""
+
+#: sparklewpthemes/theme-widgets/widgets/widget-slider.php:149
+#: sparklewpthemes/customizers/options/home-options/option-bottom.php:86
+#: sparklewpthemes/customizers/options/home-options/option-top.php:66
+#: sparklewpthemes/customizers/options/home-options/option-middle.php:58
+msgid "No of Posts"
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:20
+#, php-format
+msgid ""
+"%1$s Kathmag, a free WordPress Magazine Theme, is stylish and beautiful "
+"theme suitable for creating Magazine, News, News Portal, Blog and Digital "
+"Content Publishing Websites. It is a modern theme with elegant and "
+"responsive design and is completely built on Customizer which allows you to "
+"customize theme settings easily with live previews. There are three sections "
+"in front page, Top, Middle and Bottom where different customizer "
+"block/section can be added, and dragged and dropped to arrange them in order."
+" It has 7+ widget areas which includes Advertisement widget areas. There are "
+"4+ widgets, which can be used in Sidebar and Footer widget areas. Kathmag is "
+"compatible with all types of devices, and is compatible with all kinds of "
+"browsers. Kathmag supports Woocommerce, Jetpack, Contact Form 7 and some "
+"social sharing plugins ! Official Support Forum: Support Full Demo : http:"
+"//demo.sparklewpthemes.com/kathmag/demos/ and Docs: http://docs."
+"sparklewpthemes.com/kathmag"
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:24
+msgid "Getting Started"
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:25
+msgid "Support"
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:26
+msgid "Useful Plugins"
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:27
+#: sparklewpthemes/admin/about-theme/info.php:89
+#: sparklewpthemes/admin/about-theme/info.php:92
+msgid "Demo Content"
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:28
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:35
+msgid "Theme Details"
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:40
+msgid "View Demo"
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:45
+#: sparklewpthemes/admin/about-theme/info.php:67
+#: sparklewpthemes/admin/about-theme/info.php:113
+msgid "View Documentation"
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:50
+msgid "Rate This Theme"
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:55
+#: sparklewpthemes/admin/about-theme/info.php:142
+msgid "Buy Pro Themes"
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:64
+#: sparklewpthemes/admin/about-theme/info.php:110
+msgid "Theme Documentation"
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:66
+#: sparklewpthemes/admin/about-theme/info.php:112
+msgid ""
+"Please check our full documentation for detailed information on how to setup "
+"and customize the theme."
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:73
+#: sparklewpthemes/admin/about-theme/info.php:76
+msgid "Static Front Page"
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:75
+msgid ""
+"To achieve custom home page other than blog listing, you need to create and "
+"set static front page."
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:81
+#: sparklewpthemes/customizers/options/option-init.php:9
+msgid "Theme Options"
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:83
+msgid ""
+"Theme uses Customizer API for theme options. Using the Customizer you can "
+"easily customize different aspects of the theme."
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:84
+msgid "Customize"
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:91
+#, php-format
+msgid ""
+"To import sample demo content, %1$s plugin should be installed and activated."
+" After plugin is activated, visit Import Demo Data menu under Appearance."
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:101
+#: sparklewpthemes/admin/about-theme/info.php:104
+msgid "Contact Support"
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:103
+msgid ""
+"Got theme support question or found bug or got some feedbacks? Best place to "
+"ask your query is the dedicated Support forum for the theme."
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:119
+msgid "Child Theme"
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:121
+msgid ""
+"For advanced theme customization, it is recommended to use child theme "
+"rather than modifying the theme file itself. Using this approach, you wont "
+"lose the customization after theme update."
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:122
+msgid "Learn More"
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:131
+msgid ""
+"Theme supports some helpful WordPress plugins to enhance your site. But, "
+"please enable only those plugins which you need in your site. For example, "
+"enable WooCommerce only if you are using e-commerce."
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:136
+#, php-format
+msgid ""
+"To import demo content for this theme, %1$s plugin is needed. Please make "
+"sure plugin is installed and activated. After plugin is activated, you will "
+"see Import Demo Data menu under Appearance."
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/info.php:141
+msgid ""
+"If you want more advanced features then you can upgrade to the premium "
+"version of the theme."
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/class.info.php:121
+#: sparklewpthemes/admin/about-theme/class.info.php:122
+#, php-format
+msgid "%s Info"
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/class.info.php:126
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing %1$s. To fully take advantage of the best "
+"our theme can offer please make sure you visit theme info page."
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/class.info.php:126
+#, php-format
+msgid "Get started with %1$s"
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/class.info.php:126
+msgid "Dismiss this notice"
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/class.info.php:231
+#, php-format
+msgid "%s() method does not exist."
+msgstr ""
+
+#: sparklewpthemes/admin/about-theme/class.info.php:340
+#: sparklewpthemes/admin/about-theme/class.info.php:381
+msgid "Manage Plugins"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/option-init.php:10
+msgid "Spark Construction Theme Options"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/option-init.php:15
+msgid "Front Page Options"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/option-init.php:16
+msgid "Spark Construction Customization Options"
+msgstr ""
+
+#: sparklewpthemes/customizers/functions/choices.php:16
+msgid "Select Page"
+msgstr ""
+
+#: sparklewpthemes/customizers/functions/choices.php:97
+#: sparklewpthemes/customizers/functions/choices.php:111
+msgid "Left"
+msgstr ""
+
+#: sparklewpthemes/customizers/functions/choices.php:98
+#: sparklewpthemes/customizers/functions/choices.php:112
+msgid "Right"
+msgstr ""
+
+#: sparklewpthemes/customizers/functions/choices.php:113
+msgid "None"
+msgstr ""
+
+#: sparklewpthemes/customizers/functions/controls.php:133
+#: sparklewpthemes/customizers/options/home-options/option-top.php:53
+#: sparklewpthemes/customizers/options/home-options/option-middle.php:46
+msgid "Select Category"
+msgstr ""
+
+#: sparklewpthemes/customizers/functions/controls.php:134
+#: sparklewpthemes/customizers/functions/controls.php:185
+msgid "Latest Posts"
+msgstr ""
+
+#: sparklewpthemes/customizers/functions/controls.php:211
+msgid "Delete"
+msgstr ""
+
+#: sparklewpthemes/customizers/functions/controls.php:214
+msgid "|"
+msgstr ""
+
+#: sparklewpthemes/customizers/functions/controls.php:217
+msgid "Close"
+msgstr ""
+
+#: sparklewpthemes/customizers/functions/defaults.php:69
+msgid "Breaking News"
+msgstr ""
+
+#: sparklewpthemes/customizers/functions/defaults.php:83
+msgid "Related Posts"
+msgstr ""
+
+#: sparklewpthemes/customizers/customizer-pro/class-customize.php:77
+msgid "Upgrade To Education Web Pro"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-bottom.php:14
+msgid "Bottom Section Settings"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-bottom.php:33
+msgid "Bottom Section Elements"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-bottom.php:36
+#: sparklewpthemes/customizers/options/home-options/option-middle.php:35
+msgid "News Section"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-bottom.php:37
+#: sparklewpthemes/customizers/options/home-options/option-middle.php:36
+msgid "Add News Layout"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-bottom.php:48
+#: sparklewpthemes/customizers/options/home-options/option-bottom.php:60
+#: sparklewpthemes/customizers/options/home-options/option-bottom.php:72
+msgid "Category"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-bottom.php:78
+msgid "Bottom News Layouts"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-bottom.php:79
+msgid "Select News Layout"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-bottom.php:92
+#: sparklewpthemes/customizers/options/home-options/option-top.php:72
+msgid "Enable Banner Layout"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-bottom.php:94
+#: sparklewpthemes/customizers/options/home-options/option-top.php:74
+#: sparklewpthemes/customizers/options/home-options/option-middle.php:65
+msgid "Yes"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-bottom.php:95
+#: sparklewpthemes/customizers/options/home-options/option-top.php:75
+#: sparklewpthemes/customizers/options/home-options/option-middle.php:66
+msgid "No"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-top.php:14
+msgid "Top Section Settings"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-top.php:24
+msgid "Show Banner In Blog Page"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-top.php:43
+msgid "Top Section Elements"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-top.php:44
+msgid "Top Section is visible in both front page and blog page."
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-top.php:47
+msgid "Banner Section"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-top.php:48
+msgid "Add Banner"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-top.php:58
+msgid "Banner Layouts"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-top.php:59
+msgid "Select Banner Layout"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-sidebar.php:13
+msgid "Front Page Sidebar Options"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-ticker.php:13
+msgid "Ticker News Options"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-ticker.php:14
+msgid "Configurations for ticker news"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-ticker.php:25
+msgid "Show Ticker News"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-ticker.php:37
+msgid "Ticker News Block Title"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-ticker.php:49
+msgid "Ticker News Categories"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-ticker.php:62
+msgid "Number of Ticker News"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-ticker.php:74
+msgid "Show Ticker In Blog Page"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-home.php:13
+#: sparklewpthemes/customizers/options/home-options/option-home.php:24
+msgid "Enable Front Page"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-middle.php:13
+msgid "Middle Section Settings"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-middle.php:32
+msgid "Middle Section Elements"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-middle.php:51
+msgid "News Layouts"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-middle.php:52
+msgid "Select the News Layout"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/home-options/option-middle.php:63
+msgid "Enable News Layout"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-others.php:13
+msgid "Miscellaneous"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-others.php:24
+msgid "Excerpt Length"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-others.php:25
+msgid "Set the length of short content displayed in post"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-header.php:13
+msgid "Header Options "
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-header.php:14
+#: sparklewpthemes/customizers/options/theme-options/option-meta.php:16
+msgid "Configurations of Header"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-header.php:24
+msgid "Enable Top Header"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-header.php:35
+msgid "Enable Search Button"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-post.php:13
+msgid "Single Post Options"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-post.php:14
+msgid "Configurations for single post page."
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-post.php:25
+msgid "Show Post Tags & Categories"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-post.php:37
+msgid "Enable Related Posts Block"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-post.php:49
+msgid "Related Posts Block Title"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-post.php:62
+msgid "Number of Related Posts"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-post.php:75
+msgid "Enable Comments"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-breadcrumb.php:15
+msgid "Breadcrumb Options"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-breadcrumb.php:16
+msgid "Configurations of Breadcrumb"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-breadcrumb.php:27
+msgid "Enable Breadcrumb"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-archive.php:13
+msgid "Archive Page Options"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-archive.php:14
+msgid ""
+"The options are affective on all archive pages such as blog, search, archive "
+"etc..."
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-links.php:13
+msgid "Social Links"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-links.php:48
+msgid "Google Plus Link"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-links.php:84
+msgid "Pinterest Link"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-footer.php:14
+msgid "Footer Options"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-footer.php:15
+msgid "Configurations of Footer"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-footer.php:25
+msgid "Enable Bottom Footer"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-footer.php:36
+msgid "Enable Scroll Top Button"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-footer.php:47
+msgid "Copyright Text"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-meta.php:15
+msgid "Post Meta Options"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-meta.php:27
+msgid "Enable Post Date"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-meta.php:39
+msgid "Enable Author Name"
+msgstr ""
+
+#: sparklewpthemes/customizers/options/theme-options/option-meta.php:51
+msgid "Enable Comments Number"
+msgstr ""
+
+#. Name of the theme
+msgid "Kathmag"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Kathmag, a free WordPress Magazine Theme, is stylish and beautiful theme "
+"suitable for creating Magazine, News, News Portal, Blog and Digital Content "
+"Publishing Websites. It is a modern theme with elegant and responsive design "
+"and is completely built on Customizer which allows you to customize theme "
+"settings easily with live previews. There are three sections in front page, "
+"Top, Middle and Bottom where different customizer block/section can be added,"
+" and dragged and dropped to arrange them in order. It has 7+ widget areas "
+"which includes Advertisement widget areas. There are 4+ widgets, which can "
+"be used in Sidebar and Footer widget areas. Kathmag is compatible with all "
+"types of devices, and is compatible with all kinds of browsers. Kathmag "
+"supports Woocommerce, Jetpack, Contact Form 7 and some social sharing "
+"plugins ! Official Support Forum:  Support Full Demo : http://demo."
+"sparklewpthemes.com/kathmag/demos/ and Docs: http://docs.sparklewpthemes."
+"com/kathmag"
+msgstr ""
+
+#. URI of the theme
+msgid "http://sparklewpthemes.com/wordpress-themes/kathmag/"
+msgstr ""
+
+#. Author of the theme
+msgid "sparklewpthemes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://sparklewpthemes.com/"
+msgstr ""

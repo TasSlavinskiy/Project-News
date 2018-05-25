@@ -1,0 +1,113 @@
+/*
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+.
+. @ This is grand master scss file
+.
+. @ All the scss files are include from here
+.
+. @ Project : KathMag
+.
+. @ Version : 1.0.0
+.
+. @ Since : 2018 feb 24
+.
+. @ Author : Sparklethemes
+.
+. @ Author URL : https://sparklewpthemes.com
+.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+
+/* Include browser reset file */
+
+
+	@import 'browser__resets/resets';
+
+
+/* Include css framework */
+
+
+	@import 'framework/bootstrap';
+
+
+/* Include plugins that we use in the project */
+
+	@import 'plugins/owlcarousel';
+	@import 'plugins/animate';
+	@import 'plugins/menu';
+	@import 'plugins/retina';
+
+
+/* Optional import count down clock Scss file */
+
+	@import 'misc/count_down_clock';
+
+
+/* Typography & icon fonts */
+
+	@import 'variables/variables_color';
+	@import 'variables/variables_typography';
+
+
+
+/* Import our variables that we will be using in our project */
+
+	@import 'typography__n__icons/typography';
+	@import 'typography__n__icons/iconfonts';
+
+
+/* Import predefined & overriding css class */
+
+	@import 'predefined__n__overrides/predefined__classes';
+	@import 'predefined__n__overrides/overriding__classes';
+
+
+
+/* Import Spacing & Aligment scss files */
+
+	@import 'spacing__n__aligment/aligment';
+	@import 'spacing__n__aligment/spacing';
+
+
+/* Import our WordPress styles for WordPress project  */
+
+
+	@import 'wordpress__styles/_wp__styles';
+
+
+
+/*
+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+
+.
+. Our Custom styles inside this area
+.
+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+ 
+*/
+
+
+	@import 'our__styles/styles';
+
+
+/*
+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+
+.
+. End of import of our custom stylesheets inside this area
+.
+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+
+*/
+
+
+/* Import our custom responsive or mediaquery styles */
+
+
+	@import 'responsive/responsive';
+
+
+
+/* ------------------ E N D ------------------------- */
+

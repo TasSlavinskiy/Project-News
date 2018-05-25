@@ -1,0 +1,407 @@
+.customize-control select{
+  width: 98%;
+}
+
+.kathmag-accordion-section-title{
+  color: #555;
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
+  padding: 10px 10px 11px 14px;
+  line-height: 21px;
+  background: #FFF;
+  margin: 0 -12px 0;
+}
+
+.kathmag-info{
+  margin-top: 10px;
+}
+
+.kathmag-info a{
+  background: #0073aa;
+  padding: 5px 10px;
+  color: #FFF;
+  text-align: center;
+  display: block;
+  margin-top: 5px;
+  line-height: 1.2;
+  box-shadow: none;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.kathmag-info a:hover{
+  background: #000;
+}
+
+.kathmag-repeater-field-control{
+  background: #FFF;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.kathmag-repeater-footer{
+  margin-top: 15px;
+  text-align: right;
+}
+
+.kathmag-repeater-field-control:first-child .kathmag-repeater-footer{
+  display: none;
+}
+
+.kathmag-repeater-field-title{
+  padding: 13px 15px;
+  line-height: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 0;
+  font-size: 1em;
+  border: 1px solid #e5e5e5;
+  cursor: move;
+  position: relative;
+  border-bottom: 0;
+}
+
+.kathmag-repeater-field-title:after {
+  content: "\f142";
+  font: 400 20px/1 dashicons;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 1px 2px 1px 0;
+  margin-top: 10px;
+  margin-right: 10px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.kathmag-repeater-field-control.expanded .kathmag-repeater-field-title:after{
+  content: "\f140";
+}
+
+.kathmag-repeater-fields{
+  padding: 0 10px 10px;
+  border-top: none;
+  line-height: 16px;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 1px 1px rgba(0,0,0,.04);
+  display: none;
+}
+
+.kathmag-repeater-fields .customize-control-title{
+  margin-top: 10px;
+}
+
+.kathmag-repeater-field-control.expanded .kathmag-repeater-fields{
+  display: block;
+}
+
+.kathmag-add-control-field {
+  float: right;
+}
+
+.kathmag-add-control-field:before {
+    content: "\f132";
+    display: inline-block;
+    position: relative;
+    left: -2px;
+    top: -1px;
+    font: 400 18px/1 dashicons;
+    vertical-align: middle;
+}
+
+
+.kathmag-fields textarea{
+  width: 100%;
+  min-height: 100px;
+}
+
+.kathmag-fields select{
+  width: 100%;
+  min-width: none;
+}
+
+.kathmag-type-checkbox{
+  margin-top: 10px;
+}
+
+.kathmag-type-checkbox label{
+    line-height: 20px;
+    display: block;
+    margin-left: 24px;
+    padding-top: 6px;
+}
+
+.kathmag-type-checkbox input[type=checkbox]{
+    margin-right: 8px;
+    margin-left: -24px;
+}
+
+.kathmag-type-selector .selector-labels{
+  margin: 0 -5px;
+}
+
+.kathmag-type-selector .selector-labels label{
+  display: inline-block;
+  padding: 10px 5px 0;
+  position: relative;
+  max-width: 50%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.kathmag-type-selector .selector-labels label img{
+  vertical-align: middle;
+}
+
+.kathmag-type-selector .selector-labels label.selector-selected:after{
+  content: "";
+  height: 35px;
+  width: 35px;
+  right: 0;
+  top: 0;
+  position: absolute;
+  background: url(../img/selected.png) no-repeat right top;
+}
+
+.kathmag-type-radio .radio-labels label{
+  display: block;
+  padding: 5px 0;
+}
+
+.onoffswitch {
+    position: relative;
+    width: 100px;
+    margin-right: 15px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.onoffswitch-inner {
+    width: 200%;
+    margin-left: -100%;
+    -moz-transition: margin .3s ease-in 0s;
+    -webkit-transition: margin .3s ease-in 0s;
+    -o-transition: margin .3s ease-in 0s;
+    transition: margin .3s ease-in 0s
+}
+
+.onoffswitch-inner > div {
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 24px;
+    padding: 0;
+    line-height: 24px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.onoffswitch-inner .onoffswitch-active {
+    background-color: #d4d4d4;
+    color: #FFF
+}
+
+.onoffswitch-inner .onoffswitch-inactive {
+    background-color: #d4d4d4;
+    color: #FFF;
+    text-align: right
+}
+
+.onoffswitch-switch {
+    width: 50px;
+    margin: 0;
+    text-align: center;
+    border: 0 solid #999;
+    border-radius: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0
+}
+
+.onoffswitch-active .onoffswitch-switch {
+    background: #0073aa;
+    left: 0
+}
+
+.onoffswitch-inactive .onoffswitch-switch {
+    background: #7D7D7D;
+    right: 0
+}
+.switch-on .onoffswitch-inner {
+    margin-left: 0
+}
+
+.kathmag-range-slider .range-input{
+  height: 12px;
+  position: relative;
+  background: #EEE;
+  border-radius: 4px;
+  margin: 0 4px 18px;
+}
+
+.kathmag-range-slider .range-input-selector{
+  width: 80px !important;
+  margin-right: 10px !important;
+  border-radius: 12px;
+  text-align: center;
+  height: 32px;
+}
+
+.kathmag-range-slider .ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    background: #0073aa;
+}
+
+.kathmag-range-slider .ui-slider-horizontal .ui-slider-range {
+    top: 0;
+    height: 100%;
+    left: 0;
+    border-radius: 4px;
+}
+
+.kathmag-range-slider .ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 18px;
+    height: 18px;
+    cursor: default;
+    -ms-touch-action: none;
+    touch-action: none;
+    background: #EEE;
+    border: 2px solid #0073aa;
+    border-radius: 50%;
+    margin-top: -3px;
+    margin-left: -9px;
+    cursor: pointer;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.kathmag-type-icon{
+  overflow: hidden;
+}
+
+.kathmag-selected-icon{
+  background: #F6F6F6;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border: 1px solid #EEE;
+  position: relative;
+  margin-right: 45px;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.kathmag-selected-icon span{
+  position: absolute;
+  background: #F6F6F6;
+  right: -45px;
+  top: -1px;
+  height: 45px;
+  width: 45px;
+  border: 1px solid #EEE;
+  font-size: 20px;
+}
+
+.kathmag-icon-list{
+  height: 215px;
+  overflow-y: scroll;
+  font-size: 18px;
+  border: 1px solid #EEE;
+  border-right: 0;
+  border-top: 0;
+  padding-bottom: 4%;
+  display: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.kathmag-icon-list li{
+  float: left;
+  margin: 4% 3% 0;
+  height: 40px;
+  width: 16%;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #EEE;
+}
+
+.kathmag-icon-list li:hover{
+  background: #333;
+  border: 1px solid #333;
+  color: #FFF;
+}
+
+.kathmag-icon-list li.icon-active{
+  background: #0073aa;
+  border: 1px solid #0073aa;
+  color: #FFF;
+}
+
+.clearfix:after,
+.clearfix:before{
+  content: "";
+  display: table;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
+.widget-content .attachment-media-view{
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 1em 0;
+}
+
+.widget-content .placeholder{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    border: 1px dashed #b4b9be;
+    box-sizing: border-box;
+    padding: 9px 0;
+    line-height: 20px;
+}
+
+.widget-content .actions{
+    margin-top: 8px;
+}
+
+
+/*CHOSEN*/
+.chosen-container-single .chosen-single {
+    border-radius: 0px;
+    height: 28px;
+    background: #FFF;
+    border-color: #DDDDDD;
+    line-height: 28px;
+    -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.06);
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.06);
+}
+
+.chosen-container-single .chosen-single div b{
+    background-position: 0px 4px;
+}
+
+.chosen-container-active.chosen-with-drop .chosen-single div b {
+  background-position: -18px 4px;
+}
+
+.chosen-container-multi .chosen-choices li{
+    float: none;
+}

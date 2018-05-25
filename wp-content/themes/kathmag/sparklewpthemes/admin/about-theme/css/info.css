@@ -1,0 +1,41 @@
+.sparkle-info-wrap .sparkle-section .dashicons {
+	margin-top: -4px;
+	vertical-align: middle;
+}
+
+.sparkle-info-wrap .nav-tab {
+	font-size: 16px;
+}
+
+.sparkle-info-wrap h1 {
+	font-size: 2em;
+}
+
+.sparkle-info-wrap h3 {
+	font-size: 1.2em;
+}
+
+.sparkle-info-wrap .sparkle-section-useful-plugins,
+.sparkle-info-wrap .sparkle-section-upgrade-to-pro,
+.sparkle-info-wrap .sparkle-section-demo-content {
+	margin-top: 50px;
+}
+
+.sparkle-info-wrap .tab-upgrade-to-pro {
+	background-color: #bf2424;
+	background-color: #159614;
+	color: #FFF;
+}
+
+.sparkle-info-wrap .quick-links a {
+	margin-right: 5px;
+}
+
+.sparkle-info-notice .btn-dismiss {
+	margin-left: 20px;
+}
+
+.sparkle-info-wrap .plugin-list {
+	list-style-position: inside;
+	list-style-type: disc;
+}

@@ -1,0 +1,46 @@
+/* Lets now import variables colors */
+
+
+@import 'colors/colors';
+
+
+/* Lets now define variables for color, in this file we define color variables for entire website */
+
+
+// General Color Variables 
+$primary_color 					: #010101;
+$secondary_color				: #CC1919;
+$third_color					: green;
+$general_text_color				: #777777;
+$special_purpose_color			: blue;
+$border_color					: #eee;
+$mask_background				: rgba(0,0,0,0.6);
+
+
+// Header section variables 
+$header_top_bg					: #f5f5f5;
+$header_bg_color				: $black;
+$nav_ul_bg						: $black;
+$nav_first_ul_li_a_color		: $white;
+$nav_dropdown_bg				: $black;
+$nav_dropdown_ul_bg				: $white;
+$nav_dropdown_ul_li_a_color		: $white;
+
+
+// Different Sections possible variables 
+
+$section_bg						: #eee;
+
+
+//  Footer section possible variables 
+
+$footer_bg						: #111111;
+$footer_bottom_bg				: #010101;
+$footer_section_text_color		: #b7b7b7;
+$footer_section_links_color		: #b7b7b7;
+$footer_heading_color			: #e4e4e4;
+$footer_lines_color				: #2b2b2b;
+
+// Some extra variables for color 
+
+$discount_color:#D32F2F;

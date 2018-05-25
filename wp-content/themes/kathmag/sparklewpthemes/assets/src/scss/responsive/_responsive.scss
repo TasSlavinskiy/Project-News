@@ -1,0 +1,1294 @@
+/*
+***************************************************************
+*
+* Media query for only container & page wrap starts here
+*
+***************************************************************
+*/
+
+@media ( max-width: 1200px ) {
+
+	.km_container,
+	.page_wrap {
+
+		width:auto;
+	}
+}
+
+@media ( min-width: 1200px ) {
+
+	body.custom-background .page_wrap {
+
+		margin-top:30px;
+	}
+}
+
+
+
+/*
+***************************************************************
+*
+* Media query for only container & page wrap ends here.
+*
+***************************************************************
+*/
+
+
+@media ( max-width: 1170px ) {
+
+
+	 /* Common Classes used all over the project */
+	
+
+	.widget.widget_popular_posts .post_card .post_meta ul {
+
+		display:none;
+	}
+
+	.post_meta ul li.author span {
+
+		margin-right: 10px;
+	}
+
+	a.menu-toggle {
+
+		letter-spacing: 5px;
+	}
+
+	    
+}
+
+
+
+
+/*
+***************************************************************
+*
+* Media query for media screen 1100px
+*
+***************************************************************
+*/
+
+
+
+@media ( max-width: 1100px ) {
+
+
+	/* Lets now first handle the typography for screen below this breakpoint */
+
+
+	 h1 {
+
+        font-size: 34px;
+    }
+
+    h2 {
+
+        font-size: 28px;
+    }
+
+    h3 {
+
+        font-size: 24px;
+    }
+
+    h4 {
+
+        font-size: 22px;
+    }
+
+    h5 {
+
+        font-size: 18px;
+    }
+
+    h6 {
+
+        font-size: 16px;
+    }
+
+
+
+
+  	/* Lets now take care of container below this screen */
+
+
+
+
+  	.km_container_big, .km_container {
+
+  		max-width:99%;
+  	}
+
+
+
+
+  	/* Homepage I Styles */
+
+
+
+
+	.km_banner .km_g_banner .item .col .banner_post_holder {
+
+		height: 500px;
+	}
+
+
+
+
+	/* Homepage II styles */
+
+
+
+  	/* Common Classes used all over the project */
+
+
+
+  	.primary_navigation>ul>li>a {
+
+    padding: 10px 10px;
+    font-weight: normal;
+
+	}
+
+	.primary_navigation li.has-sub>a:after {
+  
+    margin-left: 7px;
+    font-size: 12px;
+
+	}
+
+	.post_meta ul li span, .post_meta ul li.author span {
+
+		margin-right:5px;
+	}
+
+	.widget_social ul li {
+
+		margin-right:7px;
+	}
+
+
+    
+}
+
+
+
+
+/*
+***************************************************************
+*
+* Media query for media screen 1024px
+*
+***************************************************************
+*/
+
+
+
+@media ( max-width: 1024px ) {
+
+
+	/* Homepage I Styles */
+
+	
+	.km_featured_posts .fp_carousel .fp_card .post_meta {
+		
+		top:75%;
+	}
+
+	.km_post_widget_tab_layout_one .post_meta ul li.author,
+	.km_posts_widget_layout_two .post_meta ul li.author,
+	.km_posts_widget_layout_one .post_meta ul li.author {
+
+		display:none;
+	}
+
+	.km_posts_widget_layout_three .km_p_w_l_t_carousel .owl-nav {
+
+		top: 30px;
+    	left: 15px;
+	}
+
+	.km_posts_widget_layout_three .km_p_w_l_t_carousel .item .post_card .post_meta_holder {
+
+		width:95%;
+		top: 75%;
+    	left: 15px;
+	}
+
+	.km_posts_widget_layout_four .post_meta ul li.author {
+
+		display:none;
+	}
+	
+	.km_posts_widget_layout_five .post_meta ul {
+
+		margin: 0px 0 10px 0;
+	}
+
+	.km_posts_widget_layout_seven .post_card .content_box {
+
+		padding-top:0;
+	}
+	
+	.km_posts_widget_layout_eight .km_card_holder_wig_eight .post_card .post_fimage .post_details {
+
+		top:60%;
+	}
+
+	.km_posts_widget_layout_eight .km_card_holder_wig_eight .card .small_post_box_holder .image_box {
+
+		width:100%;
+	}
+
+	.km_posts_widget_layout_eight .km_card_holder_wig_eight .card .small_post_box_holder .content_box {
+
+		width:100%;
+		padding-left:0;
+		padding-top:20px;
+	}
+
+
+	/* Homepage II Styles */
+
+
+	
+	.km_banner .km_g_banner .item .banner_post_holder .post_meta {
+
+		padding: 0 15px;
+	}
+
+	.km_banner.km_banner_layout_three .gutter_left .card img {
+
+		height:auto;
+	}
+
+	.km_banner.km_banner_layout_three .gutter_right .right_post_holder .card img {
+
+		height:210px;
+	}
+
+
+
+	/* Homepage IV styles */
+
+
+	.km_banner.km_banner_layout_four .right_post_holder .post_meta {
+    
+    	padding: 0 5px;
+
+	}
+
+
+	/* Single page styles */
+
+
+	.single_page_layout_two .post_fimage .mask, 
+	.single_page_layout_three .post_fimage .mask, 
+	.single_page_layout_four .post_fimage .mask {
+
+		background: rgba(0,0,0,0.4);
+	}
+
+
+	/* Coming soon page styles */
+
+
+	.coming_soon_page_wrapper .coming_soon_inner {
+	
+		padding:30px 0;
+	}
+
+	.coming_soon_page_wrapper .head {
+
+    	margin-bottom: 25px;
+
+	}
+
+
+	/* Common Classes used all over the project */
+
+	
+	.post_meta ul li span,
+	.post_meta ul li span a {
+
+		font-size:12px;
+	}
+
+	.post-navigation .nav-previous a {
+
+		padding-left: 30px;
+	}
+
+	.post-navigation .nav-next a {
+
+		padding-right: 30px;
+	}
+
+	.km_section_spacing {
+
+    	margin-bottom: 30px;
+
+	}
+
+	.widget.km_posts_widget_layout_three .km_p_w_l_t_carousel .item .post_card .post_meta_holder {
+
+    	width: 90%;
+    	top: 85%;
+    	left: 5%;
+
+	}
+
+	.widget_social ul li {
+
+    	margin-right: 3px;
+	}
+
+	.widget.widget_recent_posts .post_meta ul {
+
+   		margin: 5px 0 5px 0;
+	}
+
+        
+}
+
+
+
+
+
+/*
+***************************************************************
+*
+* Media query for media screen 992px
+*
+***************************************************************
+*/
+
+
+
+@media ( max-width: 990px ) {
+    
+	
+
+	/* Homepage I styles */
+
+
+	.km_posts_widget_layout_seven {
+
+
+	}
+
+	/* Homepage II styles */
+
+
+	.km_banner.km_banner_layout_three .gutter_right .right_post_holder .card img {
+
+		height:auto;
+	}
+
+	.km_banner.km_banner_layout_three .gutter_left {
+
+		padding-right: 15px;
+	}
+
+	.km_banner.km_banner_layout_three .gutter_left {
+
+		margin-bottom:10px;
+	}
+
+	.km_banner.km_banner_layout_three .gutter_right {
+
+		padding-left: 15px;
+    	padding-right: 15px;
+	}
+
+	.km_banner.km_banner_layout_three .gutter_right .gutter_right_top {
+
+		padding-right:5px;
+	}
+
+	.km_banner.km_banner_layout_three .gutter_right .gutter_right_bottom {
+
+		padding-left:5px;
+	}
+
+	.km_banner.km_banner_layout_three .gutter_right .gutter_right_top:nth-child(2) {
+
+		padding-right:15px;
+		padding-left: 5px;
+	}
+
+	.km_banner.km_banner_layout_three .right_post_holder .post_fimage .post_meta h2 {
+
+		font-size:24px;
+	}
+
+
+	/* Common classes used all over the project */
+
+	.advertisement  {
+
+		text-align:center;
+	}
+
+	.footer .widget {
+
+		margin-bottom:60px;
+	}
+
+	
+	aside#secondary {
+    
+    	margin-top: 60px;
+
+	}
+
+	.search_modal .modal-content {
+
+    	padding: 20px 30px;
+
+	}
+
+	.main_navigation .primary_navigation ul li.primarynav_search_icon {
+
+		float:left;
+	}
+
+	.widget_recent_posts .content_box .image_box {
+
+		width:20%;
+	}
+
+	.widget_recent_posts .content_box .content_holder {
+
+		width:80%;
+	}
+
+	.widget.widget_popular_posts .post_card .post_meta ul {
+
+		display:block;
+	}
+	
+	.widget_popular_posts .km_p_w_l_t_carousel .item .post_card .post_meta_holder {
+
+		padding:40px 20px;
+	}
+
+	.widget_popular_posts .km_p_w_l_t_carousel .owl-dots {
+
+		margin:30px 0;
+	}
+
+	.widget_popular_posts .km_p_w_l_t_carousel .owl-dots .owl-dot {
+
+		width:20px;
+		height:20px;
+		line-height:20px;
+	}
+
+
+
+    
+}
+
+
+
+/*
+***************************************************************
+*
+* Media query for media screen 768px
+*
+***************************************************************
+*/
+
+
+@media ( max-width: 768px ) {
+
+    
+
+    /* Homepage II styles */
+
+
+	.ticker_heading {
+    
+    	width: 25%;
+
+	}
+
+	#newsTicker {
+
+    width: 75%;
+
+	}
+
+
+	/* Homepage IV styles */
+
+
+	.km_banner.km_banner_layout_four .gutter_left {
+		
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-bottom:10px;
+	}
+
+	.km_banner.km_banner_layout_four .gutter_right {
+
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.km_banner.km_banner_layout_four .gutter_right .right_post_holder .custom_row .col:nth-child(2),
+	.km_banner.km_banner_layout_four .gutter_right .right_post_holder .custom_row .col:nth-child(4) {
+	
+		padding-right:0;
+	}
+
+	.km_banner.km_banner_layout_four .right_post_holder .post_meta {
+
+    	padding: 0 10px;
+
+	}
+
+
+	/* Home page III styles */
+
+
+	.km_banner.km_banner_layout_three .right_post_holder .post_fimage .post_meta h2 {
+
+		font-size:18px;
+	}
+
+
+
+	/* Archive page ( listing page styles )  */
+
+
+	.listpage_wrapper .pagination {
+
+		margin:30px 0;
+	}
+
+	.listpage_layout_one.km_posts_widget_layout_five .post_meta ul {
+    
+    	margin: 20px 0 10px 0;
+
+	}
+
+	.masonary_grid_item {
+
+		width:50%;
+	}
+
+
+
+	/* Search page styles */
+
+
+	.search_page_wrapper .listpage_layout_one  .post_meta ul {
+    
+    	margin: 0 0 10px 0;
+
+	}
+
+	.search_page_wrapper .pagination {
+
+		margin: 30px 0;
+	}
+
+
+	/* Common Classes used all over the project */
+
+
+	.km_posts_widget_layout_eight .km_card_holder_wig_eight .post_card .post_fimage .post_details .post_meta ul {
+
+		display:none;
+	}
+
+	
+	footer {
+
+		margin-top: 0;
+	}
+
+
+	.widget_popular_posts .post_card .post_title h3 {
+
+    	font-size: 28px;
+    
+	}
+	
+	.widget_social ul li {
+    
+    	margin-right: 15px;
+
+	}
+
+	ul.social_icons li a {
+
+		line-height: 22px;
+    	width: 22px;
+    	height: 22px;
+	}
+
+}
+
+
+
+/*
+***********************************************************************************************
+*
+* Media query for media screen 645px ( small android tablets and large mobile landscape )
+*
+***********************************************************************************************
+*/
+
+
+@media ( max-width: 645px ) {
+
+
+	/* Lets now first handle the typography for screen below this breakpoint */
+		
+
+	 h1 {
+
+        font-size: 32px;
+    }
+
+    h2 {
+
+        font-size: 24px;
+    }
+
+    h3 {
+
+        font-size: 22px;
+    }
+
+    h4 {
+
+        font-size: 18px;
+    }
+
+    h5 {
+
+        font-size: 16px;
+    }
+
+    h6 {
+
+        font-size: 14px;
+    }
+
+
+	/* Homepage I styles */
+
+
+	.km_banner .km_g_banner .item .col .banner_post_holder {
+
+		height:400px;
+	}
+
+
+	.km_posts_widget_layout_one .card {
+
+		margin-bottom: 30px;
+	}
+
+	.ticker_wrap span.ticker_haeading {
+
+		width:100%;
+	}
+
+
+	.ticker_wrap span.ticker_haeading::after {
+
+		content:'';
+		border-color:tranasparent;
+		border:0;
+	}
+
+	.news_ticker {
+
+		width:100%;
+		padding:5px 0;
+	}
+
+	.km_posts_widget_layout_seven .post_card .content_box {
+
+		padding-top: 20px;
+	}
+
+	.km_posts_widget_layout_eight .km_card_holder_wig_eight {
+
+		width:100%;
+	}
+
+	.km_posts_widget_layout_eight .km_card_holder_wig_eight .post_card .post_fimage .post_details {
+
+		top:85%;
+	}
+
+	.km_posts_widget_layout_eight .km_card_holder_wig_eight .post_card .post_fimage .post_details .post_meta ul {
+
+		display:block;
+	}
+
+
+	/* Homepage III styles */
+
+	
+	.km_banner.km_banner_layout_three .post_fimage .post_meta {
+
+		top:75%;
+	}
+
+	.km_banner.km_banner_layout_three .gutter_left {
+
+		padding-right: 15px;
+		padding-left:15px;
+	}
+
+	.km_banner.km_banner_layout_three .gutter_left {
+
+		margin-bottom:10px;
+	}
+
+	.km_banner.km_banner_layout_three .gutter_right {
+
+		padding-left: 15px;
+    	padding-right: 15px;
+	}
+
+	.km_banner.km_banner_layout_three .gutter_right .gutter_right_top {
+
+		padding-right:15px;
+	}
+
+	.km_banner.km_banner_layout_three .gutter_right .gutter_right_bottom {
+
+		padding-left:15px;
+	}
+
+	.km_banner.km_banner_layout_three .right_post_holder .post_fimage .post_meta h2 {
+
+		font-size:28px;
+	}
+
+
+
+	/* Single page styles */
+
+
+	.single_page_layout_two .the_content {
+    
+    	padding-top: 30px;
+
+	}
+
+
+	.single.single_page_layout_four .background_fimage {
+
+		padding: 200px 0;
+	}
+
+
+
+	/* Archive page layouts */
+
+	.page_wrap_with_sidebar .masonary_grid_item {
+		
+		width:100%;
+	}
+
+	.masonary_grid_item .post_details_holder {
+		
+		padding: 10px 10px 20px 10px;
+
+	}
+
+
+
+	/* Search page styles */
+
+
+	.search_page_wrapper .listpage_layout_one .post_meta ul {
+
+		margin: 20px 0 10px 0;
+	}
+
+
+	/* Coming soon page styles */
+
+	.coming_soon_page_wrapper .coming_soon_inner {
+
+		height:auto;
+	}
+
+	.flip-clock-wrapper ul {
+
+		width:50px;
+	}
+
+	.flip-clock-wrapper ul li a div div.inn {
+
+		font-size:42px;
+	}
+
+
+    
+     /* Common Classes used all over the project */
+	
+
+	.ticker_heading {
+    
+    	width: 20%;
+
+	}
+
+	#newsTicker {
+
+		width:80%;
+	}
+
+	.km_general_header .top_header .top_left {
+
+		padding-top: 0;
+		padding-bottom: 20px;
+	}
+
+
+    .km_general_header .top_header .top_right ul {
+	
+		text-align:left;
+		margin-left: -5px;
+    }
+
+    .km_general_header .bottom_header {
+
+    	padding-top:0;
+    	padding-bottom: 20px;
+    }
+    
+    .km_general_header .bottom_header .header_advt {
+
+    	padding-top: 20px;
+    }
+    
+
+    .main_navigation {
+
+    	padding-top:20px;
+    }
+
+
+    .km_posts_widget_layout_five .post_meta ul {
+    
+    	margin: 20px 0 10px 0;
+
+	}
+	
+	.footer_bottom {
+
+		padding: 10px 0;
+	}
+
+	.footer_bottom ul {
+
+		text-align:left;
+		padding-top: 10px;
+	}
+	
+	.post-navigation .nav-previous a {
+
+		padding-left: 5px;
+	}
+
+	.post-navigation .nav-next a {
+
+		padding-right:5px;
+	}
+
+	.related_posts_carousel .fp_card .post_meta {
+
+		top:70%;
+	}
+
+
+}
+
+
+/*
+***********************************************************************************************
+*
+* Media query for media screen 420px ( mobile potrait mode )
+*
+***********************************************************************************************
+*/
+
+
+@media ( max-width: 420px ) {
+
+
+	/* Homepage I styles */
+
+	
+	.km_banner .km_g_banner .item .col .post_meta .post_title h2 {
+
+		font-size:22px;
+	}
+
+	.km_banner .km_g_banner .item .banner_post_holder .post_meta {
+
+		top: 80%;
+		
+	}
+
+	.km_featured_posts {
+
+		margin-bottom:30px;
+	}
+	
+	.km_featured_posts .fp_carousel .fp_card .post_meta .post_title h3 {
+
+		font-size:22px;
+	}
+
+	.km_posts_widget_layout_one .right_side_wrapper .image_box {
+
+		width:100%;
+	}
+
+	.km_posts_widget_layout_one .right_side_wrapper .contant_box {
+
+		width:100%;
+		padding:20px 0 0 0;
+	}
+
+	.km_posts_widget_layout_three .km_p_w_l_t_carousel .item .post_card .post_meta_holder {
+
+		padding:20px 15px;
+		top:75%;
+		width:90%;
+	}
+
+	.km_posts_widget_layout_three .post_card .post_title h3 {
+
+		font-size:18px;
+	}
+
+	.km_posts_widget_layout_three .post_card .post_meta ul {
+
+		display:none;
+	}
+
+	.news_ticker ul li a {
+
+		font-size:14px;
+		line-height:inherit;
+	}
+
+	.km_posts_widget_layout_eight .km_card_holder_wig_eight .post_card .post_fimage .post_details {
+
+		top:70%;
+	}
+
+
+
+	/* Homepage II styles */
+
+	.km_banner .km_g_banner.km_banner_layout_two .item .banner_post_holder .post_meta  {
+
+	}
+
+
+
+
+	/* Homepage III styles */
+
+
+	.km_banner.km_banner_layout_three .right_post_holder .post_fimage .post_meta h2,
+	.km_banner.km_banner_layout_three .post_fimage .post_meta .post_title h2 {
+
+		font-size:18px;
+	}
+
+	.km_banner.km_banner_layout_three .gutter_right .gutter_right_top:nth-child(2) {
+
+		padding-left:15px;
+		padding-right:15px;
+	}
+	
+
+	/* Homepage IV styles */
+
+	.km_banner.km_banner_layout_four .post_fimage .post_meta .post_title h2 {
+
+		font-size:18px;
+
+	}
+
+	.km_banner.km_banner_layout_four .gutter_right .right_post_holder .col {
+
+		width:100%;
+	}
+
+	.custom_row {
+
+		margin-left:0;
+	}
+
+	.km_banner.km_banner_layout_four .gutter_right .right_post_holder .col {
+
+		padding-right:0;
+		padding-left:0;
+	}
+
+	.km_banner.km_banner_layout_four .right_post_holder .post_fimage .post_meta h2 {
+
+		font-size:18px;
+	}
+
+	.km_banner.km_banner_layout_four .gutter_right .right_post_holder .custom_row .col:nth-child(3), 
+	.km_banner.km_banner_layout_four .gutter_right .right_post_holder .custom_row .col:nth-child(4) {
+
+		margin-bottom:10px;
+	}
+
+	.km_banner.km_banner_layout_four .gutter_left .card .post_fimage img {
+
+		height:auto;
+	}
+
+
+
+
+	/* Single page II styles */
+
+
+	.single_page_layout_two .post_fimage, .single_page_layout_three .post_fimage, .single_page_layout_four .post_fimage {
+
+		min-height:200px;
+	}
+
+
+	/* Single page III styles */
+
+
+	.single_page_layout_three .post_fimage {
+
+		border:3px solid $border_color;
+	}
+
+
+	/* Single page IV styles */
+
+
+	.single.single_page_layout_four .background_fimage {
+
+		min-height:200px;
+	}
+
+
+	/* Archive page III styles */
+
+	.masonary_grid_item {
+
+		width:100%;
+	}
+
+	/* 404 error page styles */
+
+	.error_head h2 {
+
+		font-size: 42px;
+	}
+
+	.error_action a {
+
+		padding: 10px 20px;
+	}
+
+
+
+	/* Coming soon page styles */
+
+
+	.coming_soon_page_wrapper .message_body.bottom ul li {
+
+		margin-right:2px;
+	}
+
+
+	.flip-clock-wrapper ul {
+
+		width:33.33%;
+	}
+
+	.flip-clock-divider.hours, .flip-clock-divider.minutes, .flip-clock-divider.seconds, .flip-clock-divider .flip-clock-label {
+
+		display:none;
+	}
+
+
+
+	/* Common Classes used all over the project */
+
+
+	.search_modal .modal-content .search_form {
+
+		padding: 30px 0;
+	}
+
+	.search_modal .modal-content {
+
+		padding: 30px 15px;
+	}
+
+	.search_modal .modal-content .search_form input[type="search"], 
+	.search_modal .modal-content .search_form input[type="text"], 
+	.widget .search-form input[type="text"], 
+	.widget .search-form input[type="search"] {
+		
+		width: 85%;
+
+	}	
+
+	.search_modal .modal-content .search_form button, 
+	.widget .search-form button {
+
+		width: 15%;
+	}
+
+	.ticker_heading {
+
+		width:30%;
+	}
+	
+	#newsTicker {
+
+		width:70%;
+	}
+
+	body.home aside#secondary {
+
+		margin-top:0;
+	}
+
+	.widget_social ul li {
+
+		margin-right:5px;
+	}
+
+	.widget_recent_posts .content_box .image_box {
+
+		width:30%;
+	}
+
+	.widget_recent_posts .content_box .content_holder {
+
+		width:70%;
+	}
+
+	.widget_recent_posts .content_box:last-child {
+
+		margin-bottom:0;
+	}
+
+	.post-navigation .nav-previous, .post-navigation .nav-next {
+    
+    float: none;
+    width: 100%;
+
+	}
+
+	.post-navigation .nav-previous {
+
+		border-right:none;
+		border-bottom:1px solid $border_color;
+		text-align:right;
+	}
+
+	.post-navigation .nav-next a {
+
+    	padding-right: 30px;
+    	padding-left: 0;
+	}
+
+	.post-navigation .nav-previous a {
+
+    	padding-left: 30px;
+    	padding-right: 0;
+
+	}
+    
+    
+    
+}
+
+
+@media ( max-width: 375px ) {
+
+
+	/* Home page I styles */
+
+
+	.km_banner .km_g_banner .item .col .banner_post_holder {
+
+		height:300px;
+	}
+
+
+	/* Search page styles */
+
+	.search_page_wrapper .listpage .list_title h2 {
+
+		font-size:18px;
+		font-weight: bold;
+	}
+
+
+	/* Single page I Styles */
+
+
+	.single .post_meta .post_title h2 {
+
+		padding-bottom:0;
+		font-size:18px;
+	}
+
+	.post_meta ul li span {
+
+		font-size:12px;
+	}
+
+	.post_meta ul li span::before {
+
+		top:0;
+	}
+	
+	.single.single_page_layout_two .post_meta ul, 
+	.single_page_layout_three .post_meta ul, 
+	.single_page_layout_four .post_fimage .post_meta ul {
+
+		margin:10px 0;
+	}
+
+
+
+	/* Common Classes used all over the project */
+
+
+	.top_left {
+
+		display:none !important;
+	}
+
+    
+    /* Typography adjustment for mobile device */
+
+
+
+	
+    
+}
